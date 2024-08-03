@@ -27,7 +27,7 @@ int main (void)
 
                 printf("\n Should run service... \n");
 
-                sleep(10);
+                sleep(1);
                 //basically the watcher wont work till that files is rm, it will be removed by the sh script, trhough the function updatE_o_flag
                 ifstream file("/var/www/veljos.com/login/display/apis/db_apis/flag/o_flag.txt");
                 while(file.is_open()){
